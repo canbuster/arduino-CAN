@@ -103,6 +103,8 @@ int MCP2515Class::begin(long baudRate)
     {  (long)8E6,   (long)10E3, { 0x0f, 0xbf, 0x07 } },
     {  (long)8E6,    (long)5E3, { 0x1f, 0xbf, 0x07 } },
 
+    { (long)10E6,  (long)500E3, { 0x00, 0x9a, 0x01 } },
+
     { (long)16E6, (long)1000E3, { 0x00, 0xd0, 0x82 } },
     { (long)16E6,  (long)500E3, { 0x00, 0xf0, 0x86 } },
     { (long)16E6,  (long)250E3, { 0x41, 0xf1, 0x85 } },
